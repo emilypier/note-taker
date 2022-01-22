@@ -1,4 +1,4 @@
-# note-taker
+# Note-Taker app
 ## Description
 A note taker application that uses Express.js back end to save and retrieve data from a JSON file.
 ## Image
@@ -8,5 +8,6 @@ A note taker application that uses Express.js back end to save and retrieve data
 * Express.js
 * Node.js
 ## Website
+https://emilypier.github.io/note-taker/
 ## Made by 
 Emily Pierson
