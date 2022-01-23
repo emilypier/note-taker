@@ -1,6 +1,6 @@
 const fs = require('fs');
 const uuid = require('uuid/v1');
-const util = require('util'); //give each note a unique id
+const util = require('util'); //gives each note a unique id
 const { stringify } = require('querystring');
 
 const readAsync = util.promisify(fs.readFile); 
@@ -56,6 +56,6 @@ class DB {
   //   return this.delete(newNotesArray)
   // });
 
-}
+};
 
 module.exports = new DB()
