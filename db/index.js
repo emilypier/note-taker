@@ -1,6 +1,6 @@
 const fs = require('fs');
-const uuid = require('uuid/v1');
-const util = require('util'); //gives each note a unique id
+const uuid = require('uuid/v1'); //gives each note a unique id
+const util = require('util');
 const { stringify } = require('querystring');
 
 const readAsync = util.promisify(fs.readFile); 
