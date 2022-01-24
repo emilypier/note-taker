@@ -58,4 +58,4 @@ class DB {
 
 };
 
-module.exports = new DB()
+module.exports = new DB();
